@@ -1,10 +1,22 @@
+/*###color scheme###
+#040c0e
+#132226
+#525B56
+#BE9063
+#A4978E 
+
+###################*/
+
+
+
+
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: 'KoHo', sans-serif;  font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/morocco.png");
 }
+
 
 * {
   box-sizing: border-box;
@@ -33,16 +45,19 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #132226;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px solid #525b56;
+}
+.right{
+  float: right;
+  width: 100%;
 }
 
 h2,
@@ -59,7 +74,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: #040c0e;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -67,14 +82,13 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #132226;
 }
 
 nav {
@@ -87,7 +101,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: #525b56;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -105,8 +119,8 @@ footer {
   color: #ffffff;
   color: #cccccc;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: #040c0e;
+  border-top: 8px solid #132226;
   height: 50px;
 }
 
@@ -114,7 +128,6 @@ h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eeeeee;
 }
 
 /* main */
@@ -131,17 +144,47 @@ h3, h2 {
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
-  border: 1px solid #dddddd;
+  border: 5px solid #dddddd;
+}
+
+
+.main-section-contact {
+  max-width: 500px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background: #ffffff;
+  border: 5px solid #dddddd;
+}
+
+.main-section-portfolio {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 5px solid #dddddd;
 }
 
 /* portfolio page */
 
+.portfolio-image {
+  position: relative;
+    float: left;
+    height: 275px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 370px;
   margin: 20px 0 25px;
   overflow: auto;
+  border: 2px solid #132226; 
+
 }
 
 .work:nth-child(even) {
@@ -164,7 +207,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #132226;
   border-bottom: 0;
 }
 
@@ -177,6 +220,10 @@ h3, h2 {
 }
 
 /* contact page */
+
+#contact-head{
+  text-align: center;
+}
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -212,7 +259,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #132226;
   border: 0 none;
 }
 
